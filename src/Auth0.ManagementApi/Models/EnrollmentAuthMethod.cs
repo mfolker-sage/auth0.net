@@ -14,6 +14,9 @@ namespace Auth0.ManagementApi.Models
         Guardian,
 
         [EnumMember(Value = "sms")]
-        SMS
+        SMS,
+
+        [EnumMember(Value = "webauthn-platform")]
+        WebAuth
     }
 }
